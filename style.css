@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.slack {
+  position: fixed;
+  border-radius: 50%;
+  bottom: 0.7rem;
+  right: 0.7rem;
+  height: 3.5rem;
+}
+
+.slack:hover {
+  height: 5rem;
+  background-color: #808080;
+  transition: all 400ms ease-out;
+}
+
+.topBar {
+  background-color: #a5c779;
+  padding-right: 2rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.title {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  align-items: center;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.topBarLinks:hover {
+  color: #000;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.navBar {
+  color: black;
+  background-color: #77943e;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  font-weight: bolder;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks {
+  font-size: 1.1rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.navLinks:hover {
+  color: #fff;
+  transition: all 500ms ease-in-out;
+}
+
+.content,
+.contents {
+  padding: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: lighter;
+}
