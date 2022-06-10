@@ -4,4 +4,4 @@
 
 # Page
  
-  * https://mehmetgzn.github.io/Sticky-Nav-Bar/
+  * https://mehmetgzn.github.io/StickyNavBar/
